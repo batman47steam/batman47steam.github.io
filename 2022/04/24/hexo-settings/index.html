@@ -29,7 +29,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/batman47steam/typora-pic/images/image-20220424105333065.png">
 <meta property="article:published_time" content="2022-04-24T03:27:44.000Z">
-<meta property="article:modified_time" content="2022-04-24T13:26:31.247Z">
+<meta property="article:modified_time" content="2022-04-24T13:31:32.988Z">
 <meta property="article:author" content="Comrade Bionic">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/batman47steam/typora-pic/images/image-20220424105333065.png">
@@ -216,7 +216,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2022-04-24 11:27:44 / Modified: 21:26:31" itemprop="dateCreated datePublished" datetime="2022-04-24T11:27:44+08:00">2022-04-24</time>
+      <time title="Created: 2022-04-24 11:27:44 / Modified: 21:31:32" itemprop="dateCreated datePublished" datetime="2022-04-24T11:27:44+08:00">2022-04-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -255,6 +255,7 @@
 <p>用<a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a>里如下的方法同时把生成的内容，和源码都push上去，当然很炫酷，但是这样可能需要同时把主题文件夹里面的<code>.git</code>给删去，这样不利于后面主题的更新，原本更新主题文件夹只需要到theme所在的目录里把最新的主题给pull下来再merge就差不多了</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># _config.yaml</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="string">git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">master</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="string">git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">src</span></span><br><span class="line">    <span class="attr">extend_dirs:</span> <span class="string">/</span></span><br><span class="line">    <span class="attr">ignore_hidden:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">ignore_pattern:</span></span><br><span class="line">        <span class="attr">public:</span> <span class="string">.</span></span><br></pre></td></tr></table></figure>
 <p>目前来看主题里的<code>_config.yml</code>没有过多的要修改的内容，主要是头像设置，以及social的部分</p>
+<p><strong>其实只要在另一台电脑上进行同样的配置，然后对_post里的markdown做好备份就行了</strong></p>
 
     </div>
 
